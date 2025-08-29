@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import "tailwindcss";
+
+@plugin "tailwind-scrollbar";
+
+@theme {
+  --font-nunito: "Nunito", "sans-serif";
+  --font-openSans: "Open Sans", "sans-serif";
+}
+
+@keyframes shootingStar {
+  0% {
+    opacity: 50%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    transform: translateX(-600px) translateY(-600px);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #0f172b;
+}
+::-webkit-scrollbar-track {
+  background: #1d293d;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #314158;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #45556c;
+}
+
+.animate-twinkle {
+  animation: twinkle 2s ease-in-out infinite;
+}
+
+.animate-shooting {
+  animation: shootingStar 2s ease-in-out forwards;
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
