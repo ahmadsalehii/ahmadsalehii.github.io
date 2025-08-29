@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Toaster } from "react-hot-toast";
 
 import "./index.css";
 
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <Layout>
+      <Toaster position="top-center" />
       <Section
         classList={`min-h-screen flex items-center justify-center px-4 relative overflow-hidden`}
       >

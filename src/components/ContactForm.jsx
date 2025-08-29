@@ -1,7 +1,7 @@
 import { RiSendPlaneFill } from "react-icons/ri";
 import emailjs from "@emailjs/browser";
 import { useState, useEffect } from "react";
-import toast, { Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 
 import useAnimateOnScroll from "../hooks/useAnimateOnScroll";
 
@@ -57,7 +57,6 @@ function ContactForm() {
       ref={elementRef}
       className={`${hasAnimated ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"} transform transition-all duration-1000`}
     >
-      <Toaster />
       <form className="space-y-6" onSubmit={handleSubmit}>
         <div className="grid grid-cols-2 gap-4">
           <div>
