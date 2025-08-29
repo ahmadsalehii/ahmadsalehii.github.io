@@ -1,6 +1,6 @@
 import useAnimateOnScroll from "../hooks/useAnimateOnScroll";
 import TechnologyCard from "./TechnologyCard";
-import todoListImg from "../assets/images/todo-list";
+import todoListImg from "../assets/images/todo-list.png";
 
 function ProjectCard({
   link,

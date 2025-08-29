@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import profileImg from "../assets/images/profile-500x500";
+import profileImg from "/src/assets/images/profile-500x500.jpg";
 
 function HeaderImage() {
   const [isVisible, setIsVisible] = useState(false);
