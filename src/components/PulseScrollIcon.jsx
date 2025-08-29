@@ -1,11 +1,11 @@
 function PulseScrollIcon() {
-	return (
-		<div className='animate-bounce items-center mt-10 flex justify-center'>
-			<div className='w-6 h-10 border-2 border-red-300 rounded-full flex justify-center bg-gray-800'>
-				<div className='w-1 h-3 bg-red-300 rounded-full mt-2 animate-pulse'></div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="mt-10 flex animate-bounce items-center justify-center">
+      <div className="flex h-10 w-6 justify-center rounded-full border-2 border-slate-300 bg-gray-800">
+        <div className="mt-2 h-3 w-1 animate-pulse rounded-full bg-slate-300"></div>
+      </div>
+    </div>
+  );
 }
 
 export default PulseScrollIcon;

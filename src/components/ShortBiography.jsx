@@ -1,35 +1,35 @@
-import { ImLocation } from 'react-icons/im';
-import { useEffect, useState } from 'react';
+import { ImLocation } from "react-icons/im";
+import { useEffect, useState } from "react";
 
 function ShortBiography() {
-	const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
 
-	useEffect(() => {
-		setIsVisible(true);
-	}, []);
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
 
-	return (
-		<div
-			className={`md:text-start text-center transform transition-all duration-1000 delay-500 ${
-				isVisible
-					? 'translate-y-0 opacity-100'
-					: 'translate-y-10 opacity-0'
-			}`}
-		>
-			<h1 className='text-5xl md:text-6xl font-bold mb-2'>
-				<span className='bg-gradient-to-r from-red-400 via-red-500 to-red-600 bg-clip-text text-transparent font-openSans'>
-					Ahmad Salehi
-				</span>
-			</h1>
-			<p className='text-xl md:text-2xl text-gray-300 font-medium font-openSans'>
-				Frontend Developer
-			</p>
-			<div className='mt-2 flex gap-[2px] items-center justify-center md:justify-start text-gray-400'>
-				<ImLocation size={16} />
-				<p className='mt-[1px] font-openSans'>Tehran, Iran</p>
-			</div>
-		</div>
-	);
+  return (
+    <div
+      className={`transform text-center transition-all delay-500 duration-1000 md:text-start ${
+        isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+      }`}
+    >
+      <h1 className="mb-2 text-5xl font-extrabold md:text-6xl">
+        <span className="font-nunito bg-gradient-to-r from-red-400 via-red-500 to-red-600 bg-clip-text text-transparent">
+          Ahmad Salehi
+        </span>
+      </h1>
+      <p className="font-nunito text-xl font-bold text-gray-300 md:text-2xl">
+        Frontend Developer
+      </p>
+      <div className="mt-2 flex items-center justify-center gap-[2px] text-gray-400 md:justify-start">
+        <div className="mb-[4px]">
+          <ImLocation size={16} />
+        </div>
+        <p className="font-nunito">Tehran, Iran</p>
+      </div>
+    </div>
+  );
 }
 
 export default ShortBiography;

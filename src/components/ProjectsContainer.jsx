@@ -25,38 +25,6 @@ function ProjectsContainer() {
         >
           Todo List
         </ProjectCard>
-        <ProjectCard
-          link={"https://todolist226.netlify.app"}
-          technologies={[
-            "HTML",
-            "JavaScript",
-            "TailwindCss",
-            "MVC Architechtor",
-          ]}
-          title={"Todo List"}
-          description={
-            "An online todo list application to manage daily tasks efficiently with features like adding, editing, and deleting tasks."
-          }
-          animationDelay={"200ms"}
-        >
-          Todo List
-        </ProjectCard>
-        <ProjectCard
-          link={"https://todolist226.netlify.app"}
-          technologies={[
-            "HTML",
-            "JavaScript",
-            "TailwindCss",
-            "MVC Architechtor",
-          ]}
-          title={"Todo List"}
-          description={
-            "An online todo list application to manage daily tasks efficiently with features like adding, editing, and deleting tasks."
-          }
-          animationDelay={"400ms"}
-        >
-          Todo List
-        </ProjectCard>
       </div>
     </div>
   );

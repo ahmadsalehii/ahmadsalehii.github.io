@@ -82,7 +82,7 @@ function ContactInfo() {
           <div className="flex space-x-4">
             <a
               target="_blank"
-              href="https://github.com/ahmadssalehi"
+              href="https://github.com/ahmadsalehii"
               className="flex items-center justify-center rounded-lg border border-slate-600 bg-slate-900 p-2 text-red-300 transition-all duration-300 hover:scale-110 hover:border-red-400 hover:bg-slate-700 hover:text-red-400"
             >
               <ImGithub size={24} />

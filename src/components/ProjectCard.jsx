@@ -61,7 +61,7 @@ function ProjectCard({
           <p className="font-nunito mb-4 leading-relaxed text-gray-300">
             {description}
           </p>
-          <div className="flex items-center font-medium text-red-400 transition-colors duration-300 group-hover:text-yellow-500">
+          <div className="flex items-center font-medium text-red-200 transition-colors duration-300 group-hover:text-red-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
