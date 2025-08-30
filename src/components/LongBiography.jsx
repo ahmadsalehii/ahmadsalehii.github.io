@@ -9,7 +9,7 @@ function LongBiography() {
 
   return (
     <div
-      className={`font-nunito mx-10 mb-6 max-w-3xl transform text-justify text-lg leading-relaxed font-semibold text-gray-300 transition-all delay-700 duration-1000 md:mx-auto md:text-xl ${
+      className={`font-nunito mx-10 mb-6 max-w-3xl transform text-lg leading-relaxed font-semibold text-balance text-gray-300 transition-all delay-700 duration-1000 md:mx-auto md:text-xl ${
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
     >
