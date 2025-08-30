@@ -10,7 +10,6 @@ import LongBiography from "./components/LongBiography";
 import Links from "./components/Links";
 import HeaderBiography from "./components/HeaderBiography";
 import Layout from "./components/Layout";
-import PulseScrollIcon from "./components/PulseScrollIcon";
 import BiographyContainer from "./components/BiographyContainer";
 import ProjectsContainer from "./components/ProjectsContainer";
 import Sky from "./components/Sky";
